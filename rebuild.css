@@ -1,0 +1,284 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+h2{
+	font-weight: 300;
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+img{
+	display: block;
+	width:100%;
+}
+
+main{
+	max-width:900px;
+	margin:auto;  
+	box-shadow:30px 0px 40px rgba(0,0,0),-30px 0px 40px rgba(0,0,0,0.1);
+}
+
+.splash{
+	height:35vh;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.splash-img{
+	background: url(https://source.unsplash.com/QA-qQfWJM0E);
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 65vh;
+	flex-flow: 0 1 60vw;
+	margin:0;
+
+ }
+
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	height:14.3333vh;
+}
+#icons{
+	background-color: ;
+	height:7.33333vh;
+	width:100%;
+	display: flex;
+	flex-flow: row;
+    justify-content: space-around;
+}
+
+#icon-1{
+	width:20vw;
+	text-align: center;}
+
+#icon-2{
+	width:20vw;
+	text-align: center;
+}
+
+#icon-3{
+	width:20vw;
+	text-align: center;
+}
+
+.label1:hover{
+	border-bottom: 3px #000 solid;
+
+}
+
+#scroll1 {
+	height:15vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.scroll, img{
+     height:90px;
+     width: 90px;
+}
+
+#popsongs{
+	height: 80vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,.8), rgba(255,0,0,.9));
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	grid-template-rows: auto auto auto;
+	grid-auto-rows: minmax( auto, auto);
+	grid-gap:1em;
+}
+
+#popsongs img{
+	height:115px;
+	width:115px;
+}
+.poptile{
+	display: flex; 
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
+	margin:10px;
+}
+.poptile:hover{
+	display: flex; 
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
+	margin:10px;
+	-webkit-box-shadow: 10px 10px 10px 10px;
+}
+
+.label{
+	flex:1;
+	padding:10px;
+	font-weight: 800;
+	font-size: 1.25rem;
+	margin: 0;
+	color:#000;
+}
+
+.poptile img{
+   flex:1;
+   padding: 10px
+}
+
+.choose{
+	padding-top:2vh;
+	height: 8vh;
+	text-align: center;
+}
+#scroll2 {
+	height:10vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background-color: ;
+
+}
+
+#scroll2 img{ 
+     height:90px;
+     width: 90px;
+}
+/*Navigation Styles*/
+#navsection{
+	max-width:900px;
+	margin:auto;  
+}
+
+.nav-links{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	height:100vh;
+	width:100%;
+	max-width:900px;
+	font-weight: 600;
+	font-size:3em;
+	color:#000;
+	overflow:hidden;
+}
+
+.nav1{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav1b{
+	position: absolute;
+	height:100vh;
+	width:;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+.nav2{
+   height:0vh;
+   transform:translateY(-100vh);
+   z-index: 1;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav2b{
+	position: absolute;
+	height:100vh;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav3{
+   height:0vh;
+   transform:translateY(-100vh);
+   z-index: 1;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+.nav3b{
+	position: absolute;
+	height:100vh;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+.nav4{
+   height:0vh;
+   transform:translateY(-100vh);
+   z-index: 1;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+
+.nav4b{
+	position: absolute;
+	height:100vh;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+.nav5{
+   height:0vh;
+   transform:translateY(-100vh);
+   z-index: 1;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav5b{
+	position: absolute;
+	height:100vh;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+.nav6{
+   height:0vh;
+   transform:translateY(-100vh);
+   z-index: 1;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav6b{
+	position: absolute;
+	height:100vh;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
