@@ -113,6 +113,11 @@ main{
 	height:115px;
 	width:115px;
 }
+
+#grade1Section img{
+	height:115px;
+	width:115px;
+}
 .poptile{
 	display: flex; 
 	flex-flow: column;
@@ -216,6 +221,8 @@ main{
    transition:all .75s ease-out;
    background: red;
    overflow:hidden;
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
 }
 
 .nav3{
@@ -278,6 +285,124 @@ main{
 .nav6b{
 	position: absolute;
 	height:100vh;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+#grade1Section{
+	height: 80vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,.8), rgba(255,0,0,.9));
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	grid-template-rows: auto auto auto;
+	grid-auto-rows: minmax( auto, auto);
+	grid-gap:1em;
+}
+
+.nav7{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav7b{
+	position: absolute;
+	height:100vh;
+	width:;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav8{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav8b{
+	position: absolute;
+	height:100vh;
+	width:;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav9{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav9b{
+	position: absolute;
+	height:100vh;
+	width:;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav10{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav10b{
+	position: absolute;
+	height:100vh;
+	width:;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav11{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav11b{
+	position: absolute;
+	height:100vh;
+	width:;
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+}
+
+.nav12{
+   height:0vh;
+   z-index: 2;
+   transform:translateY(-100vh);
+   transition:all .75s ease-out;
+   background: red;
+   overflow:hidden;
+
+}
+.nav12b{
+	position: absolute;
+	height:100vh;
+	width:;
    transition:all .75s ease-out;
    background: red;
    overflow:hidden;

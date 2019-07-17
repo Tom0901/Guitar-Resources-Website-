@@ -6,6 +6,7 @@
  	<link rel="stylesheet" href="rebuild.css">
  	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
  	<title>Learn Guitar</title>
+ 	<base target="_blank" rel="noopener noreferrer">
  </head>
  <body>
  	<main>
@@ -16,22 +17,22 @@
  		    <div id="icons">
  		    <div id="icon-1">
  		    	<div class="label1">
- 		    		<h3 onclick="location.href='http://www.google.com';" style="cursor:pointer;">Pop Songs</h3>
+ 		    		<h3 onclick="location.href='#popsongs';" style="cursor:pointer;">Pop Songs</h3>
  		    	</div>
  		    </div>
  		    <div id="icon-2">
  		    	<div class="label1">
- 		    		<h3 onclick="location.href='http://www.google.com';" style="cursor:pointer;">Play a Game</h3> 
+ 		    		<h3 onclick="location.href='file:///C:/Users/Tom/Desktop/Websites/Guitar%20Site/game.html';" style="cursor:pointer;">Play a Game</h3> 
  		    	</div>
  		    </div>
  		    <div id="icon-3">
  		    	<div class="label1">
- 		    		<h3 onclick="location.href='http://www.google.com';" style="cursor:pointer;">Grade 1</h3> 
+ 		    		<h3 onclick="location.href='#grade1Section';"  style="cursor:pointer;">Grade 1</h3> 
  		    	</div>
  		    </div>
  		    </div>
  		    <div id="scroll1">
- 		    <a href="#page2">
+ 		    <a href="#page2" target="_self">
  		    <img src="img/icon/scrolldown.png" alt="">
  		    </a>
  		    </div>
@@ -65,8 +66,8 @@
  				<div class="label">George Ezra</div>
  			</div>
  			<div class="poptile" id="tile5" style="cursor:pointer;">
- 				<img src="img/icon/book.png" alt="">
- 				<div class="label">Grade 1</div>
+ 				<img src="img/icon/media.png" alt="">
+ 				<div class="label">Random</div>
  			</div> 			
  			<div class="poptile" id="tile6" style="cursor:pointer;">
  				<img src="img/icon/other.png" alt="">
@@ -74,23 +75,23 @@
  			</div>
  	    </div>
  	    <div id="scroll2">
- 		    <a href="#icons">
+ 		    <a href="#grade1Section" >
  		    	<img src="img/icon/scrolldown.png" alt="">
  		    </a>
  		</div>
  		<div id="navsection">
         <div class="nav-links nav1">
-        	<a href="#pdf">
+        	<a href="PDFs/Castle.pdf">
         		<li>
         			Castle On The Hill
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Perfect.pdf">
         		<li>
         			Perfect
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Galway Girl.pdf">
         		<li>
         			Galway Girl 
         		</li>
@@ -98,12 +99,18 @@
         	<img class="close1" src="img/icon/close.png" alt=""style="cursor:pointer;">
         </div>
         <div class="nav-links nav2">
-        	<a href="#pdf">
-        		<li>
+        	<a href="PDFs/Happier 1.pdf">
+        		<li id="happier">
         			Happier
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Happier 2.pdf">
+        		<li id="happier">
+        			Happier 2
+        		</li>
+        	</a>
+
+        	<a href="PDFs/Alone.pdf">
         		<li>
         			Alone
         		</li>
@@ -111,30 +118,40 @@
         	<img class="close2" src="img/icon/close.png" alt=""style="cursor:pointer;">
         </div>
         <div class="nav-links nav3">
-        	<a href="#pdf">
+        	<a href="PDFs/This Is Me.pdf">
         		<li>
         			This Is Me 
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Stars.pdf">
         		<li>
         			Rewrite the Stars 
         		</li>
         	</a>
-        	<a href="">
+        	<a href="PDFs/Million.pdf">
         		<li>
         			A Million Dreams
+        		</li>
+        	</a>
+        	<a href="PDFs/Million 2.pdf">
+        		<li>
+        			A Million Dreams 2
+        		</li>
+        	</a>
+        	<a href="PDFs/Million 3.pdf">
+        		<li>
+        			A Million Dreams 3
         		</li>
         	</a>
         	<img class="close3" src="img/icon/close.png" alt=""style="cursor:pointer;">
         </div>
         <div class="nav-links nav4">
-        	<a href="#pdf">
+        	<a href="PDFs/Shotgun-George Ezra.pdf">
         		<li>
         			Shotgun 
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Hold My Girl Chords.pdf">
         		<li>
         			Hold My Girl 
         		</li> 
@@ -142,55 +159,190 @@
         	<img class="close4" src="img/icon/close.png" alt=""style="cursor:pointer;">
         </div>
         <div class="nav-links nav5">
-        	<a href="#pdf">
+        	<a href="readingMusic/The Basics.pdf">
         		<li>
-        			Scales
+        			Getting Started 
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="readingMusic/Harry Potter.pdf">
         		<li>
-        			Chords
-         		</li> 
+        			Harry Potter
+        		</li>
         	</a>
+        	<a href="readingMusic/Hold My Girl.pdf">
+        		<li>
+        			Hold My Girl 
+        		</li>
+        	</a>
+        	<a href="readingMusic/Perfect Ed Sheeran.pdf">
+        		<li>
+        			Perfect
+        		</li>
+        	</a>
+        	<a href="readingMusic/A Million Dreams.pdf" >
+        		<li>
+        			A Million Dreams 
+        		</li>
+        	</a>
+        	
         	<img class="close5"src="img/icon/close.png" alt=""style="cursor:pointer;">
         </div>
         <div class="nav-links nav6">
-        	<a href="#pdf">
+        	<a href="PDFs/House of The Rising Sun 1.pdf">
         		<li>
-        			7 Years 
+        			House of The Rising Sun
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Wild Thing.pdf ">
         		<li>
-        			Havana 
+        			Wild Thing  
          		</li> 
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Smoke On The Water.pdf ">
         		<li>
         			Smoke On The Water  
          		</li> 
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/The chain (F1).pdf">
         		<li>
-        			Iron Man  
+        			The Chain  
          		</li> 
         	</a>
-        	<a href="#pdf">
+        	<a href="PDFs/Smells Like Teen Spirit.pdf">
         		<li>
-        			7 Nation Army  
+        			Smells Like Teen Spirit 
          		</li> 
         	</a>
-        	<a href="#pdf">
+        	<a href="readingMusic/Harry Potter.pdf">
         	<li>
         			Harry Potter 
         		</li>
         	</a>
-        	<a href="#pdf">
+        	<a href="readingMusic/Jurassic World.pdf">
         		<li>
-        			Star Wars 
+        			Jurassic World
          		</li> 
         	</a>
             <img class="close6"src="img/icon/close.png" alt=""style="cursor:pointer;">
+        </div>
+        </div>
+      
+      	</div>
+      </div>
+      <div class="choose">
+      	 <h1>Grade1</h1>
+      </div>
+      <div id="grade1Section">
+         
+          <div class="poptile" id="tile7" style="cursor:pointer;">
+ 			  <img src="img/icon/Chords.png" alt="" >
+ 			  <div class="label">Chords</div>
+ 	      </div>
+ 	      <div class="poptile" id="tile8" style="cursor:pointer;">
+ 			  <img src="img/icon/Scales.png" alt="" >
+ 			  <div class="label">Scales</div>
+ 	      </div>
+ 	        <div class="poptile" id="tile9" style="cursor:pointer;">
+ 			  <img src="img/icon/headphone.png" alt="" >
+ 			  <div class="label">Backing Tracks</div>
+ 	      </div>
+ 	        <div class="poptile" id="tile10" style="cursor:pointer;">
+ 			  <img src="img/icon/Quaver.png" alt="" >
+ 			  <div class="label">Rythm Charts</div>
+ 	      </div>
+ 	      <div class="poptile" id="tile11" style="cursor:pointer;">
+ 			  <img src="img/icon/rock.png" alt="" >
+ 			  <div class="label">Soloing Pieces</div>
+ 	      </div>
+ 	      <div class="poptile" id="tile12" style="cursor:pointer;">
+ 			  <img src="img/icon/Ear.png" alt="" >
+ 			  <div class="label">Ear Training</div>
+ 	      </div>
+
+ 	     
+
+      </div>
+
+      <div id="navsection">
+        <div class="nav-links nav7">
+        	<a href="http://www.davejonesguitar.co.uk/pdf/PreliminaryGradeChords.pdf">
+        		<li>
+        			Preliminary Grade Chords
+        		</li>
+        	</a>
+        	<a href="http://www.davejonesguitar.co.uk/pdf/Grade1Chords.pdf">
+        		<li>
+        			Grade 1 Chords 
+        		</li>
+        	</a>
+        
+        	<img class="close7" src="img/icon/close.png" alt=""style="cursor:pointer;">
+        </div>
+        <div class="nav-links nav8">
+        	<a href="http://www.davejonesguitar.co.uk/pdf/PreliminaryGradeScales.pdf">
+        		<li>
+        			Preliminary Grade Scales 
+        		</li>
+        	</a>
+        	<a href="http://www.davejonesguitar.co.uk/pdf/Grade1Scales.pdf">
+        		<li>
+        			Grade 1 Scales 
+        		</li>
+        	</a>
+        	<img class="close8" src="img/icon/close.png" alt=""style="cursor:pointer;">
+        </div>
+        <div class="nav-links nav9">
+        	<a href="https://www.youtube.com/watch?v=bCl8YuqHURE">
+        		<li>
+        			A Minor/C Major
+        		</li>
+        	</a>
+        	<a href="https://www.youtube.com/watch?v=VrxmqdFxKpI">
+        		<li>
+        			E Minor/E Blues/G Major Pentatonic  
+        		</li>
+        	</a>
+        	<a href="https://youtu.be/3cmfo2uQ1S0?t=49">
+        		<li>
+        			A Major
+        		</li>
+        	</a>
+        	<img class="close9" src="img/icon/close.png" alt=""style="cursor:pointer;">
+        </div>
+        <div class="nav-links nav10">
+        	<a href="PDFs/Bad Moon Rising.pdf">
+        		<li>
+        			Bad Moon Rising  
+        		</li>
+        	</a>
+        	<a href="PDFs/Greatest Chords.pdf">
+        		<li>
+        			Greatest Show Chords 
+        		</li> 
+        	</a>
+        	<img class="close10" src="img/icon/close.png" alt=""style="cursor:pointer;">
+        </div>
+        <div class="nav-links nav11">
+        	<a href="PDFs/Soloing A Minor.pdf">
+        		<li>
+        			A Minor
+        		</li>
+        	</a>
+        	<a href="PDFs/Soloing Grade 1.pdf">
+        		<li>
+        			E Minor/A Major/E Blues
+         		</li> 
+        	</a>
+        	<img class="close11"src="img/icon/close.png" alt=""style="cursor:pointer;">
+        </div>
+        <div class="nav-links nav12">
+        	
+        	<a href="https://apps.apple.com/gb/app/functional-ear-trainer/id1088761926">
+        		<li>
+        			Functional Ear Trainer
+         		</li> 
+        	</a>
+            <img class="close12"src="img/icon/close.png" alt=""style="cursor:pointer;">
         </div>
         </div>
       

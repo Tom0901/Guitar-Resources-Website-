@@ -84,3 +84,99 @@ const navSlide = ()=>{
   navSlide6();
 
 
+ const navSlide7 = ()=>{
+      const tile7 =  document.getElementById('tile7'); 
+      const nav7 = document.querySelector('.nav7');
+      const close7 = document.querySelector('.close7');
+      tile7.addEventListener('click', ()=>{
+      nav7.classList.toggle('nav7b')
+      }); 
+      close7.addEventListener('click', ()=>{
+      nav7.classList.remove('nav7b')
+      });
+  };
+
+  navSlide7();
+  
+   const navSlide8 = ()=>{
+      const tile8 =  document.getElementById('tile8'); 
+      const nav8 = document.querySelector('.nav8');
+      const close8 = document.querySelector('.close8');
+      tile8.addEventListener('click', ()=>{
+      nav8.classList.toggle('nav8b')
+      }); 
+      close8.addEventListener('click', ()=>{
+      nav8.classList.remove('nav8b')
+      });
+  };
+
+  navSlide8();
+
+  const navSlide9 = ()=>{
+      const tile9 =  document.getElementById('tile9'); 
+      const nav9 = document.querySelector('.nav9');
+      const close9 = document.querySelector('.close9');
+      tile9.addEventListener('click', ()=>{
+      nav9.classList.toggle('nav9b')
+      }); 
+      close9.addEventListener('click', ()=>{
+      nav9.classList.remove('nav9b')
+      });
+  };
+
+  navSlide9();
+
+  const navSlide10 = ()=>{
+      const tile10 =  document.getElementById('tile10'); 
+      const nav10 = document.querySelector('.nav10');
+      const close10 = document.querySelector('.close10');
+      tile10.addEventListener('click', ()=>{
+      nav10.classList.toggle('nav10b')
+      }); 
+      close10.addEventListener('click', ()=>{
+      nav10.classList.remove('nav10b')
+      });
+  };
+
+  navSlide10();
+
+  const navSlide11 = ()=>{
+      const tile11 =  document.getElementById('tile11'); 
+      const nav11 = document.querySelector('.nav11');
+      const close11 = document.querySelector('.close11');
+      tile11.addEventListener('click', ()=>{
+      nav11.classList.toggle('nav11b')
+      }); 
+      close11.addEventListener('click', ()=>{
+      nav11.classList.remove('nav11b')
+      });
+  };
+
+  navSlide11();
+
+    const navSlide12 = ()=>{
+      const tile12 =  document.getElementById('tile12'); 
+      const nav12 = document.querySelector('.nav12');
+      const close12 = document.querySelector('.close12');
+      tile12.addEventListener('click', ()=>{
+      nav12.classList.toggle('nav12b')
+      }); 
+      close12.addEventListener('click', ()=>{
+      nav12.classList.remove('nav12b')
+      });
+  };
+
+  navSlide12();
+
+
+//menu items with multiple sheets// 
+
+
+const happier= document.getElementById('happier'); 
+
+const openMultiple = ()=>{
+  happier.addEventListener('click', ()=>{
+    window.open("PDFs/Marshmello Happier 1.pdf"); window.open("PDFs/Marshmello Happier 2.pdf"); 
+  })
+}
+
